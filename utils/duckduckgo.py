@@ -77,3 +77,15 @@ def search(q: str) -> list:
         for raw_search_result in raw_search_results
     ]
     return cleaned_results
+
+
+if __name__ == "__main__":
+    print(search("ดูดวงราศีเมถุน"))
+
+
+# Output:
+# [
+#   {'header': '...', 'sample_text': '...', 'url': '', 'post_date': ''}
+#   {'header': '...', 'sample_text': '...', 'url': '', 'post_date': ''}
+# ...
+# ]
